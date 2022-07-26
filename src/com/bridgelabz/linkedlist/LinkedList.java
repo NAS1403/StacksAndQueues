@@ -100,4 +100,8 @@ public class LinkedList<T> {
         temp = tail;
         return  deletedElement;
     }
+
+    public T peek(){
+        return head.data;
+    }
 }
